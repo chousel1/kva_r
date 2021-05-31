@@ -19,9 +19,9 @@ KVA(
 
 \item{learn_time}{Learning time by task}
 
-\item{pctauto}{Percent of task automated (enter as Decimal)}
+\item{pctauto}{Percent of task that is automated (enter as a decimal)}
 
-\item{times_perf_year}{Times a task is performed in a year}
+\item{times_perf_year}{Times a task is performed in a given period of time (for example, a year)}
 
 \item{avg_time_complete}{Average time to completion of a task}
 
@@ -36,6 +36,8 @@ a 3 item list containing [[1]]: Revenue per Unit of knowledge, [[2]]: Return on 
 Using Training time as a unit of input, generates a 3 item list containing [[1]]: Revenue per Unit of knowledge, [[2]]: Return on Knowledge by task, and [[3]]: a dataframe compiling all calculations and input data
 }
 \examples{
-KVA(c(1, 15, 1), c(11, 47, 16), c(0.9, 0.14, 0.6), c(690, 6500, 230), c(0.5, .33, 1), c(9.5, 12, 20), c(4916.25,  579150, 6900))
+KVA(c(1, 15, 1), c(11, 47, 16), c(0.9, 0.14, 0.6),
+ c(690, 6500, 230), c(0.5, .33, 1), c(9.5, 12, 20),
+ c(4916.25,  579150, 6900))
 
 }
